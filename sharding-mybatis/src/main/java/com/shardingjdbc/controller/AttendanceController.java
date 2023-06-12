@@ -25,7 +25,7 @@ public class AttendanceController {
     }
 
     @GetMapping("/add")
-    public Object addOrders() {
+    public Object addAttendances() {
         Random random = new Random();
         for (int i = 1; i <= 10; i++) {
             Attendance attendance = new Attendance();
